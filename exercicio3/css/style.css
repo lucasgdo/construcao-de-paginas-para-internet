@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: darkslategray;
+  font-family: Courier;
+  font-size: 18px;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: 100;
+}
