@@ -1,0 +1,25 @@
+h1 {
+	margin: auto;
+	width: fit-content;
+}
+
+p {
+	margin: auto;
+	width: fit-content;
+}
+
+iframe {
+	margin: auto;
+	display: block;
+}
+
+audio {
+	margin: auto;
+	display: block;
+}
+
+h2 {
+	margin: auto;
+	width: fit-content;
+}
+

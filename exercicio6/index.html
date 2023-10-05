@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+	<form action="https://httpbin.org/anything" method="post">
+		<fieldset style="max-width: fit-content;margin: auto;">
+			<legend>Formulário de Venda</legend>
+			<label for="vendedor">Escolha o vendedor: </label>
+			<select name="vendedor" id="vendedor">
+				<option value="vendedor1">Vendedor 1</option>
+				<option value="vendedor1">Vendedor 2</option>
+				<option value="vendedor1">Vendedor 3</option>
+			</select>
+			<br /><br />
+			<fieldset style="max-width: fit-content;">
+				<legend>Canal da venda: </legend>
+				<input type="radio" name="canal" id="presencial" value="presencial" />
+				<label for="presencial">Presencial</label><br />
+				<input type="radio" name="canal" id="whatsapp" value="whatsapp" />
+				<label for="whatsapp">Whatsapp</label><br />
+				<input type="radio" name="canal" id="telefone" value="telefone" />
+				<label for="telefone">Telefone</label><br />
+				<input type="radio" name="canal" id="email" value="email" />
+				<label for="email">Email</label>
+			</fieldset>
+			<br /><br />
+			<label for="valor">Valor da venda: </label>
+			<input type="text" name="valor" id="valor" placeholder="Valor da venda em R$" /><br /><br />
+			<label for="comprovante">Comprovante de transferência(PDF): </label>
+			<input type="file" id="comprovante" name="comprovante" accept="application/pdf" /><br /><br />
+			<label for="descricao">Descrição dos itens vendidos: </label><br /><br />
+			<textarea name="descricao" id="descricao" cols="30" rows="10"
+				placeholder="Insira aqui uma descrição"></textarea><br /><br />
+			<label for="nomeCliente">Nome do cliente: </label>
+			<input type="text" id="nomeCliente" name="nomeCliente" placeholder="Nome do cliente" /><br /><br />
+			<label for="cpfCliente">CPF do cliente: </label>
+			<input type="text" name="cpfCliente" id="cpfCliente" maxlength="11" placeholder="CPF do cliente" /><br /><br />
+			<input type="checkbox" name="dadosVerdadeiros" id="dadosVerdadeiros" />
+			<label for="dadosVerdadeiros">Declaro que os dados aqui informados são verdadeiros.</label><br /><br />
+			<label for="senha">Senha do vendedor: </label>
+			<input type="password" name="senha" id="senha" placeholder="Senha do vendedor" /><br /><br />
+			<input type="submit" value="Enviar" />
+		</fieldset>
+	</form>
+</body>
+
+</html>

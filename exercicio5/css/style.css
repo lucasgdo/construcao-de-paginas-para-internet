@@ -1,0 +1,22 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+thead {
+  background-color: #99c1f1;
+}
+
+tbody {
+  background-color: #dc8add;
+}
+
+
+ul,
+ol {
+  list-style-position: inside;
+}
