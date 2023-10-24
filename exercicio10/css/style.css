@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+}
+
+header {
+    background-color: #2D3E50;
+}
+
+header img {
+    width: 10%;
+}
+
+header img,
+p {
+    display: inline-block;
+}
+
+header p {
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+
+#header {
+    margin-left: 50px;
+}
+
+nav {
+    background-color: #34495E;
+}
