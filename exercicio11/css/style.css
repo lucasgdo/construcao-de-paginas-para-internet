@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(0, 0, 0, 0.65);
+    background-image: url(../img/cute-vampire-cat-seamless-pattern--cute-halloween-concept-background-v_1543017jpg!sw800.jpeg);
+    background-blend-mode: darken;
+    font-family: "Creepster";
+}
+
+h1 {
+    font-size: 80px;
+    color: darkgray;
+    text-shadow: black 0 0 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+}
+
+article {
+    border: 4mm ridge rgba(0, 0, 0, .6);
+}
