@@ -1,0 +1,28 @@
+* {
+	text-align: center;
+	list-style: none;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-Regular.ttf");
+}
+
+
+#div1 {
+	text-decoration: overline wavy #ff2828;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+#div2 {
+	text-decoration: underline double #6dbaab;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
+#div3 {
+	text-decoration: line-through dashed #2e47fa;
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+}
